@@ -17,5 +17,7 @@ Fix the problems of chlorophyll-a data set
 }
 \examples{
 
-fixClorophylData(chla)
+filename <- system.file("extdata", "Clorofila.txt", package = "PaqueGato")
+fixClorophylData(filename)
+
 }

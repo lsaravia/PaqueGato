@@ -36,8 +36,8 @@ _  *   *  _
 #' @export
 #'
 #' @examples
-#' p <- c(100,1000,2000)
-#' shannon(p)
+#'
+#' shannon(datosPruebaShannon)
 #'
 shannon <- function(species)
 {
@@ -54,10 +54,12 @@ shannon <- function(species)
 #'
 #' @return data.frame with fixed data
 #' @export
-#'
+#
 #' @examples
 #'
-#' fixClorophylData(chla)
+#' filename <- system.file("extdata", "Clorofila.txt", package = "PaqueGato")
+#' fixClorophylData(filename)
+#'
 fixClorophylData <- function(chla)
 {
   actual_year <- chla$year[1]
