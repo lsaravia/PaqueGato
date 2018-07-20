@@ -58,6 +58,9 @@ shannon <- function(species)
 #' @examples
 #'
 #' filename <- system.file("extdata", "Clorofila.txt", package = "PaqueGato")
+#'
+#' chla <- read.delim(filename)
+#'
 #' fixClorophylData(filename)
 #'
 fixClorophylData <- function(chla)

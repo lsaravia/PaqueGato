@@ -18,6 +18,9 @@ Fix the problems of chlorophyll-a data set
 \examples{
 
 filename <- system.file("extdata", "Clorofila.txt", package = "PaqueGato")
+
+chla <- read.delim(filename)
+
 fixClorophylData(filename)
 
 }

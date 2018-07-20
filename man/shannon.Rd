@@ -16,7 +16,7 @@ the Shannon Diversity Index
 Calculates the Shannon Diversity Index using ln base e
 }
 \examples{
-p <- c(100,1000,2000)
-shannon(p)
+
+shannon(datosPruebaShannon)
 
 }
