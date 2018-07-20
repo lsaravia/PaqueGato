@@ -1,0 +1,26 @@
+Package: PaqueGato
+Type: Package
+Title: Este es un paquete para generar Gatos 
+Version: 0.1.0.9000
+Authors@R: person("Leonardo A", "Saravia",email="lsaravia@campus.ungs.edu.ar", role=c("aut","man")),
+           person("Ary", "Sar", email = "arysar@hotmail.com", role = "cre")
+
+Description: Los gatos se generan automaticamente en el universo y se declaran inocentes de todo perjuicio a las 
+              personas que los encuentran en su vida. Este paquete no sirve para nada. O sea que no moleste pidiendo cosas. 
+              Usted es un gato.
+      
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.4)
+
+Imports:
+  lubridate( >= 1.7.4 ),
+  ggplot2( >= 3.0.0),
+  igraph( >= 1.1.2)
+  
+URL: http://github.com/lsaravia/PaqueGato
+BugReports: http://github.com/lsaravia/PaqueGato/issues
+
+
+  
